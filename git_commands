@@ -1,0 +1,41 @@
+1. Setup Git-
+
+git init(On directory where one wants to enable git)
+
+2. Make changes in the location where git was enabled. To view the changes-
+
+git status
+
+3. To commit the changes-
+
+git add .
+or
+git add <file>
+
+git commit -m "Comments"
+
+Note: May need to set user name and user email, before doing commit.
+
+4. Remove changes from stage-
+
+git restore --staged filename
+
+5. History of commits-
+
+git log
+
+6. Revert to earlier commit-
+
+git reset <Commit Id>
+Note: When using the above command, all the commits made after the commit to which we were reverting will be sent to the unstaged area.
+
+7. Stashing changes-
+
+#First we need to bring the file on stage
+git add <filename>
+#Now we can stash the changes
+git stash <filename>
+
+8. Bring changes back from stash-
+
+git stash pop
