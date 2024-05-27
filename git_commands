@@ -39,3 +39,13 @@ git stash <filename>
 8. Bring changes back from stash-
 
 git stash pop
+
+9. Connecting remote repo to local repo-
+
+#By convention name of all the repo/directory url in your personl git account is named origin.
+git remote add origin <url>
+
+10. View all url's linked to the repo.
+
+git remote -v
+
