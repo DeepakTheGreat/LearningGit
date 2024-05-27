@@ -49,3 +49,4 @@ git remote add origin <url>
 
 git remote -v
 
+11. Testing git merge for branch.
