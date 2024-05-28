@@ -73,6 +73,3 @@ git checkout main
 git checkout <Branch name> -- .
 git commit -m "Forcefully merged <Branch name> to main."
 
-15. Testing resolving conflicts
-
-16. Testing resolving conflicts.
