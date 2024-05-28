@@ -49,4 +49,21 @@ git remote add origin <url>
 
 git remote -v
 
-11. Testing git merge for branch.
+11. Push changes to GitHub-
+
+git push origin main
+
+12. Branching-
+
+#Never commit on main branch. Hence, we create branches for committing codes.
+#Create Branch
+git branch <branch name>
+
+#Switch so that all commits are added to the branch
+git checkout <branch name>
+
+13. Merging branch to main code-
+
+git merge <branch name>
+
+14. 
