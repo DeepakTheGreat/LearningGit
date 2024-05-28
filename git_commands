@@ -65,4 +65,3 @@ git checkout <branch name>
 13. Merging branch to main code-
 
 git merge <branch name>
-
