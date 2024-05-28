@@ -65,3 +65,12 @@ git checkout <branch name>
 13. Merging branch to main code-
 
 git merge <branch name>
+
+14. Forcefully merge branch to main-
+
+#Switch to main-
+git checkout main
+git checkout <Branch name> -- .
+git commit -m "Forcefully merged <Branch name> to main."
+
+15. Testing resolving conflicts
